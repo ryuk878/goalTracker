@@ -1,0 +1,44 @@
+.dashboard-wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  background-color: rgb(248, 102, 0);
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.images {
+  filter: grayscale();
+}
+.images-done {
+  transition: 1s;
+  filter: grayscale(0);
+}
+img {
+  border-radius: 10%;
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+}
+.submit-button {
+  margin-top: 2%;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.showCertificate{ 
+  text-decoration: none;
+  position: absolute;
+  bottom: -18.45%;
+  left: 55%;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 10px;
+}
